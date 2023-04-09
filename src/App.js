@@ -1,12 +1,21 @@
-import "./App.css";
-import Header from "./components/Header";
+import { useState } from "react";
+import Contact from "../components/Contact";
+import Header from "../components/Header";
+import Project from "../components/Project";
+import Resume from "../components/Resume";
+import "./styles.css";
 
-function App() {
+export default function App() {
+  // maintaining the current page using 'usestate'hook
+  const [page, setPage] = useState("");
   return (
-    <div>
-      <Header />
+    <div className="App">
+      {/* Header should be visible across all pages so its not conditionally rendered. */}
+      <Header page={page} setPage={setPage} />
+      {/* rest all other pages are conditionally rendered based on th page variable */}
+      {page === "project" && <Project />}
+      {page === "contact" && <Contact />}
+      {page === "resume" && <Resume />}
     </div>
   );
 }
-
-export default App;
