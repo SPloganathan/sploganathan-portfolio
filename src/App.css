@@ -1,6 +1,17 @@
+body {
+  font-family: "Scada", sans-serif !important;
+}
 .avatar {
   width: 250px;
 }
 .card {
-  min-height: 350px;
+  min-height: 620px;
+}
+.navbar-brand,
+.navbar,
+.about-container {
+  font-size: 36px !important;
+}
+.navbar {
+  background-image: url("./assets/bg.jpg");
 }

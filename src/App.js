@@ -4,7 +4,9 @@ import Header from "./components/Header";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
 import About from "./components/About";
+
 import "./App.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   // maintaining the current page using 'usestate'hook
@@ -18,6 +20,7 @@ export default function App() {
       {page === "project" && <Project />}
       {page === "contact" && <Contact />}
       {page === "resume" && <Resume />}
+      <Footer />
     </div>
   );
 }

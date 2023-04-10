@@ -3,7 +3,7 @@ import img from "../assets/sakthi1.JPG";
 
 function About() {
   return (
-    <div className="container mt-3">
+    <div className="container about-container mt-3">
       <h2>ABOUT ME</h2>
       <div>
         <img src={img} className="avatar" alt="avatar" />
