@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   // maintaining the current page using 'usestate'hook
-  const [page, setPage] = useState("");
+  const [page, setPage] = useState("about");
   return (
     <div className="App">
       {/* Header should be visible across all pages so its not conditionally rendered. */}
