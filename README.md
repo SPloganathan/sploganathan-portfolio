@@ -59,7 +59,7 @@ This project is licensed under The MIT License
 ## Deployed
 
 The deployed link
-## https://text-text-editor-pwa.herokuapp.com/
+## https://sploganathan.github.io/sploganathan-portfolio/
 
 ## Questions
 

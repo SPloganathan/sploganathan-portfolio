@@ -22,3 +22,7 @@ body {
 .navbar {
   background-image: url("./assets/bg.jpg");
 }
+.navbar-brand:hover,
+.nav-link:hover {
+  cursor: pointer;
+}
