@@ -36,7 +36,7 @@ function Contact() {
   };
 
   return (
-    <div className="container mt-3">
+    <div className="container contact-container mt-3">
       <h2>Reach us at </h2>
       <form className="row g-3 col-md-6 col-lg-6">
         <div className="col-12 ">

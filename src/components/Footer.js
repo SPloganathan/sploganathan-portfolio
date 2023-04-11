@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 function Footer() {
   return (
-    <footer className="footer-dark p-3">
+    <footer className="footer-dark footer-container p-3">
       <div className="container">
         <div className="row">
           <div className="col-12">

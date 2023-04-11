@@ -10,7 +10,7 @@ function Project() {
       <div className="row m-3">
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={marvel} class="card-img-top" alt="sample" />
+            <img src={marvel} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">MARVEL MOVIE 3000</h5>
               <h6 className="card-subtitle mb-2 text-muted">
@@ -39,7 +39,7 @@ function Project() {
         </div>
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={luv} class="card-img-top" alt="sample" />
+            <img src={luv} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">LUV 2 H8</h5>
               <h6 className="card-subtitle mb-2 text-muted">
@@ -70,7 +70,7 @@ function Project() {
         </div>
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={cms} class="card-img-top" alt="sample" />
+            <img src={cms} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">CMS STYLE TECH BLOG</h5>
               <h6 className="card-subtitle mb-2 text-muted">Node</h6>
@@ -102,7 +102,7 @@ function Project() {
       <div className="row m-3">
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={markdown} class="card-img-top" alt="sample" />
+            <img src={markdown} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">MARKDOWN README GENERATOR</h5>
               <h6 className="card-subtitle mb-2 text-muted">Node,MARKDOWN</h6>
@@ -131,7 +131,7 @@ function Project() {
         </div>
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={weather} class="card-img-top" alt="sample" />
+            <img src={weather} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">WEATHER FORECAST</h5>
               <h6 className="card-subtitle mb-2 text-muted">
@@ -162,13 +162,13 @@ function Project() {
         </div>
         <div className="col-md-4  col-lg-4 col-sm-12 mb-3">
           <div className="card">
-            <img src={pwa} class="card-img-top" alt="sample" />
+            <img src={pwa} className="card-img-top" alt="sample" />
             <div className="card-body">
               <h5 className="card-title">PWA TEXT EDITOR</h5>
-              <h6 class="card-subtitle mb-2 text-muted">
+              <h6 className="card-subtitle mb-2 text-muted">
                 React,Express,Service Workers
               </h6>
-              <p class="card-text">
+              <p className="card-text">
                 This project is to build a text editor that runs in the browser.
                 The app will be a single-page application that meets the PWA
                 criteria. Additionally, it will feature a number of data
@@ -178,13 +178,13 @@ function Project() {
               </p>
               <a
                 href="https://github.com/SPloganathan/pwa-text-editor"
-                class="card-link"
+                className="card-link"
               >
                 GitHub Link
               </a>
               <a
                 href="https://text-text-editor-pwa.herokuapp.com/"
-                class="card-link"
+                className="card-link"
               >
                 Deployed Link
               </a>

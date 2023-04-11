@@ -7,10 +7,17 @@ body {
 .card {
   min-height: 620px;
 }
-.navbar-brand,
-.navbar,
-.about-container {
+
+.about-container,
+.contact-container,
+.resume-container,
+.title-text {
   font-size: 36px !important;
+}
+.footer-container,
+.navbar-brand,
+.navbar {
+  font-size: 24px !important;
 }
 .navbar {
   background-image: url("./assets/bg.jpg");
