@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sploganathan-portfolio/static/css/main.f056485f.css",
+    "main.js": "/sploganathan-portfolio/static/js/main.a921f86d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/sploganathan-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bg.jpg": "/sploganathan-portfolio/static/media/bg.2b29a8ce187e87cabea2.jpg",
+    "static/media/sakthi1.JPG": "/sploganathan-portfolio/static/media/sakthi1.7d165920113bc3bc0a34.JPG",
+    "static/media/marvel.jpeg": "/sploganathan-portfolio/static/media/marvel.33b804ac6a7ca79f6960.jpeg",
+    "static/media/markdown.png": "/sploganathan-portfolio/static/media/markdown.6d79d5efe9f72e9361f6.png",
+    "static/media/luv.png": "/sploganathan-portfolio/static/media/luv.f32b35e9ac7feafcfaaf.png",
+    "static/media/cms.png": "/sploganathan-portfolio/static/media/cms.cd9b1634523cf9921933.png",
+    "static/media/weather.png": "/sploganathan-portfolio/static/media/weather.3046252e53386795c16f.png",
+    "static/media/pwa.png": "/sploganathan-portfolio/static/media/pwa.9797ef555b4495172fde.png",
+    "static/media/SAKTHIPRIYA.pdf": "/sploganathan-portfolio/static/media/SAKTHIPRIYA.37f420c5c668127c715e.pdf",
+    "index.html": "/sploganathan-portfolio/index.html",
+    "main.f056485f.css.map": "/sploganathan-portfolio/static/css/main.f056485f.css.map",
+    "main.a921f86d.js.map": "/sploganathan-portfolio/static/js/main.a921f86d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/sploganathan-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f056485f.css",
+    "static/js/main.a921f86d.js"
+  ]
+}
