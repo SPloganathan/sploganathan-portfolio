@@ -3,11 +3,43 @@ import luv from "../assets/luv.png";
 import pwa from "../assets/pwa.png";
 import weather from "../assets/weather.png";
 import markdown from "../assets/markdown.png";
-import cms from "../assets/cms.png";
+// import cms from "../assets/cms.png";
+import witches from "../assets/witches.png";
 function Project() {
   return (
     <div className="containers">
       <div className="row m-3">
+        <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
+          <div className="card">
+            <img src={witches} className="card-img-top" alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">WITCHES BREW AND EATS</h5>
+              <h6 className="card-subtitle mb-2 text-muted">
+                React,Express,GraphQL,HTML,CSS
+              </h6>
+              <p className="card-text">
+                Witches Brew and Eats is a unique and enchanting food and
+                beverage establishment, where customers can experience a
+                mystical and magical atmosphere while enjoying delicious food
+                and drinks. It is a place where people can come together to
+                celebrate their love for witchcraft, magic, and all things
+                supernatural.
+              </p>
+              <a
+                href="https://github.com/SPloganathan/witches-brew-and-eats"
+                className="card-link"
+              >
+                GitHub Link
+              </a>
+              <a
+                href="https://witches-brew-and-eats.herokuapp.com/"
+                className="card-link"
+              >
+                Deployed Link
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
             <img src={marvel} className="card-img-top" alt="sample" />
@@ -68,7 +100,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
+        {/* <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
           <div className="card">
             <img src={cms} className="card-img-top" alt="sample" />
             <div className="card-body">
@@ -97,7 +129,7 @@ function Project() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="row m-3">
         <div className="col-md-4 col-lg-4 col-sm-12 mb-3">
